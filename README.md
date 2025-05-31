@@ -11,8 +11,8 @@ This is a voice-controlled assistant written in Python, capable of understanding
 
 ## 🛠️ Installation
 ```bash
-git clone https://github.com/yourusername/turkish-voice-assistant.git
-cd turkish-voice-assistant
+git clone https://github.com/Fatihctky/turkish-voice-assistant.git
+cd voice-assistant-main
 python -m venv venv
 venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
