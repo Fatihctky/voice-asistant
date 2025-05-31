@@ -56,6 +56,7 @@ source venv/bin/activate
 
 #GEREKLİ KÜTÜPHANELERİ KUR;
 pip install -r requirements.txt
+pip install pywhatkit
 
 ASİSTANI BAŞLAT;
 python main.py
