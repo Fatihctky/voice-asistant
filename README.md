@@ -33,7 +33,6 @@ Python ile yazılmış bu sesli asistan, Türkçe konuşmaları algılayıp fark
 - 🧮 Matematik işlemleri yapma (`4 x 7` gibi)
 - 📝 Not alma ve `.txt` olarak kaydetme
 - 🔍 Web'de sesli arama (API gerekmeden)
-- 💌 “Sude” diyince özel şiir okuma ve müzik çalma modu
 - 📁 Mod sistemi (bilgi, eğlence, romantik, müzik, not, hava, matematik)
 
 ---
