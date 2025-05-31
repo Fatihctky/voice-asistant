@@ -6,6 +6,8 @@ import time
 import math
 import operator
 import pywhatkit 
+import webbrowser
+
 # --- Sesli yanıt verme ---
 def speak(text):
     tts = gTTS(text=text, lang="tr", slow=False)
@@ -72,6 +74,9 @@ while True:
         siir = "Bizim kavuşmamız göz göze gelmemize bakar. Bin yıl geçse de, sen bana yabancı olamazsın."
         speak(siir)
         playsound("sude_sarkisi.mp3")
+        # Sude modu
+        webbrowser.open("https://www.youtube.com/watch?v=jKYdIdXpFzw")
+
 
     # Hey Asistan → komutlara geç
     elif "hey asistan" in komut:
