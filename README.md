@@ -3,7 +3,6 @@
 This is a voice-controlled assistant written in Python, capable of understanding Turkish commands and responding with natural-sounding speech. It includes features such as:
 
 - 🔹 Weather information via voice
-- 🔹 Custom response mode for “Sude”
 - 🔹 Text-to-speech interaction
 - 🔹 Note saving (txt)
 - 🔹 Math calculations
