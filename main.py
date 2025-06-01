@@ -68,18 +68,11 @@ speak("Asistan başlatıldı. hey asistan diyerek başlatabilirsiniz")
 while True:
     komut = record()
 
-    # Sude modu
-    if "sude" in komut:
-        speak("Hoş geldiniz Sude Hanım. Jesse sizi çok seviyor,size şunu söylemek istedi.")
-        siir = "Bizim kavuşmamız göz göze gelmemize bakar. Bin yıl geçse de, sen bana yabancı olamazsın."
-        speak(siir)
-        playsound("sude_sarkisi.mp3")
-        # Sude modu
-        webbrowser.open("https://www.youtube.com/watch?v=jKYdIdXpFzw")
+
 
 
     # Hey Asistan → komutlara geç
-    elif "hey asistan" in komut:
+    if "hey asistan" in komut:
 
         # Alt komutları dinle
         speak("Mod seçin: matematik, hava, eğlence, arama, not veya çıkış.")
